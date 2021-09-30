@@ -1,0 +1,143 @@
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  .contact input[type="text"]{
+    width: 290px;
+  }
+
+  .titulo-bgimagen h2{
+  padding-top: 0.3em;
+  font-size: 3rem;
+  color: white;
+}
+
+.titulo-bgimagen p{
+  color:white;
+}
+
+  .text p{
+    padding: 1em;
+  }
+
+  .titulo-bgimagen h1{
+    padding-top: 0.3em;
+    font-size: 3rem;
+  }
+
+
+  table {
+      width:100%;
+  }
+  thead {
+      display: none;
+  }
+  tr:nth-of-type(2n) {
+      background-color: inherit;
+  }
+  tr td:first-child {
+
+      font-weight:bold;
+      font-size:1.3em;
+  }
+  tbody td {
+      display: block;
+      text-align:center;
+  }
+  tbody td:before {
+      content: attr(data-th);
+      display: block;
+      text-align:center;
+  }
+
+}
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+
+ }
+
+ /* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+.navbar{
+  font-size: 0.7em;
+}
+
+.card{
+    font-size: 0.7em;
+}
+
+.card-img{
+  width: 100%;
+  height: 100%;
+
+}
+
+  table {
+      width:100%;
+  }
+  thead {
+      display: none;
+  }
+  tr:nth-of-type(2n) {
+      background-color: inherit;
+  }
+  tr td:first-child {
+
+      font-weight:bold;
+      font-size:1.3em;
+  }
+  tbody td {
+      display: block;
+      text-align:center;
+  }
+  tbody td:before {
+      content: attr(data-th);
+      display: block;
+      text-align:center;
+  }
+
+ }
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+  .card-img{
+    width: 100%;
+    height: 100%;
+
+  }
+
+  .bgfooter{
+    padding-bottom: 60px;
+  }
+
+  table {
+      width:100%;
+  }
+  thead {
+      display: none;
+  }
+  tr:nth-of-type(2n) {
+      background-color: inherit;
+  }
+  tr td:first-child {
+
+      font-weight:bold;
+      font-size:1.3em;
+  }
+  tbody td {
+      display: block;
+      text-align:center;
+  }
+  tbody td:before {
+      content: attr(data-th);
+      display: block;
+      text-align:center;
+  }
+ }
+
+/*  Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
+
+ }
